@@ -10,3 +10,6 @@ driver.find_element(By.NAME, "userName").send_keys("user")
 driver.find_element(By.NAME, "password").click()
 driver.find_element(By.NAME, "password").send_keys("pass")
 driver.find_element(By.NAME, "submit").click()
+
+log = driver.find_elements_by_css_selector("td>h3")
+print(log)
