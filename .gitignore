@@ -1,3 +1,4 @@
 Lib/
 .idea/
 Scripts/
+.pytest_cache
